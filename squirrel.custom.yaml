@@ -1,6 +1,5 @@
 patch:
   show_notifications_when: appropriate     # 状态通知，可设为全开（always）全关（never）  
-
   # 皮肤主题名称输入在下方，分为浅色和深色
   # 浅色主题（使用哪个主题去掉前面的 #）
   style/color_scheme: mac_light

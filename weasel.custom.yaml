@@ -1,0 +1,20 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Tue Mar 14 22:12:21 2023"
+  rime_version: 1.5.3
+patch:
+  style/color_scheme: flypy
+  style/horizontal: true
+  # 特定App默认中/英文输入   
+  app_options:    
+    cmd.exe:
+      ascii_mode: true
+    code.exe:       
+      ascii_mode: true             # true默认英文,false默认中文
+      vim_mode: true
+      #ascii_punct: true 
+    conhost.exe:
+      ascii_mode: true             # true默认英文,false默认中文
+      vim_mode: true
